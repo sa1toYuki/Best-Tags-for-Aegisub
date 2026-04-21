@@ -5,7 +5,7 @@ script_version = "1.1"
 
 function aplicar_tag_custom(subs, sel)
     local dialog_config = {
-        {class="label", label="Digite a tag (ex: \\an8, \\i1):", x=0, y=0},
+        {class="label", label="Write a tag (ex: \\an8, \\i1):", x=0, y=0},
         {class="edit", name="tag", x=0, y=1, width=30}
     }
 
@@ -19,4 +19,4 @@ function aplicar_tag_custom(subs, sel)
     end
 end
 
-aegisub.register_macro("Aplicar Tag Custom", "Aplica qualquer tag nas linhas selecionadas", aplicar_tag_custom)
+aegisub.register_macro("Best Tags", "Aplica qualquer tag nas linhas selecionadas", aplicar_tag_custom)
